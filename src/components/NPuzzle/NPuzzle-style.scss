@@ -19,8 +19,8 @@ $wid: calc(98vw / 5);
       background-color: aquamarine;
       font-size: 8vw;
       box-sizing: border-box;
-      border: 1vw solid #000;
       border-radius: 2vw;
+      color: #6875b3;
       &.isEmpty {
         background-color: antiquewhite;
       }
@@ -37,16 +37,13 @@ $wid: calc(98vw / 5);
 
 @-webkit-keyframes emptyPulse {
   from {
-    background-color: burlywood;
-    -webkit-box-shadow: 0 0 9px #333;
+    background-color: lightskyblue;
   }
   50% {
-    background-color: antiquewhite;
-    -webkit-box-shadow: 0 0 27px antiquewhite;
+    background-color: cornflowerblue;
   }
   to {
-    background-color: burlywood;
-    -webkit-box-shadow: 0 0 9px #333;
+    background-color: lightskyblue;
   }
 }
 
